@@ -1,0 +1,14 @@
+{ "parts": [
+    { "name": "pushbutton"
+    , "hooks": {
+		"eejsBlock_editbarMenuRight": "ep_readability/index"
+		, "eejsBlock_scripts": "ep_readability/index" }
+    , "client_hooks": {
+		  "documentReady": "ep_readability/static/js/readability_button.js"
+		 , "postAceInit": "ep_readability/static/js/readability_button.js"
+		 , "aceKeyEvent": "ep_readability/static/js/readability_button.js" 
+		 , "aceEditorCSS": "ep_readability/static/js/readability_button.js"
+		 }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ep_readability",
+  "version": "0.0.19",
+  "description": "Calculates the Flesch readability index in Etherpad, client based.",
+  "author": {
+    "name": "Erik",
+    "email": "ep_readability@web.de"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+ "keywords": [
+    "flesch",
+    "readability",
+    "etherpad",
+	"amstad"
+  ]
+}
